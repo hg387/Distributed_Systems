@@ -1,0 +1,75 @@
+"D:\JetBrains Rider 2021.1.3\plugins\dpa\DotFiles\JetBrains.DPA.Runner.exe" --handle=6816 --backend-pid=36244 --detach-event-name=dpa.detach.6816 H:/CS647/hw1/ActorSolution/LamportLock/bin/Debug/net5.0/LamportLock.exe 10
+Starting the Lamport Lock
+Press Enter to gracefully stop the system:
+node0 is started
+node4 is started
+node4 broadcasting request [ACQUIRING]
+node6 is started
+node6 broadcasting request [ACQUIRING]
+node7 is started
+node7 broadcasting request [ACQUIRING]
+node0 broadcasting request [ACQUIRING]
+node2 is started
+node2 broadcasting request [ACQUIRING]
+node3 is started
+node3 broadcasting request [ACQUIRING]
+node5 is started
+node5 broadcasting request [ACQUIRING]
+node1 is started
+node1 broadcasting request [ACQUIRING]
+node8 is started
+node8 broadcasting request [ACQUIRING]
+node9 is started
+node9 broadcasting request [ACQUIRING]
+node0 now owning the resource [OWNED]
+node0 now releasing the resource [RELEASING]
+node1 now owning the resource [OWNED]
+node0 broadcasting request [ACQUIRING]
+node1 now releasing the resource [RELEASING]
+node1 broadcasting request [ACQUIRING]
+node2 now owning the resource [OWNED]
+node2 now releasing the resource [RELEASING]
+node3 now owning the resource [OWNED]
+node2 broadcasting request [ACQUIRING]
+node3 now releasing the resource [RELEASING]
+node4 now owning the resource [OWNED]
+node3 broadcasting request [ACQUIRING]
+node4 now releasing the resource [RELEASING]
+node5 now owning the resource [OWNED]
+node4 broadcasting request [ACQUIRING]
+node5 now releasing the resource [RELEASING]
+Press Enter to gracefully stop the system:
+node6 now owning the resource [OWNED]
+node5 broadcasting request [ACQUIRING]
+node6 now releasing the resource [RELEASING]
+node6 broadcasting request [ACQUIRING]
+node7 now owning the resource [OWNED]
+node7 now releasing the resource [RELEASING]
+Press Enter to gracefully stop the system:
+node8 now owning the resource [OWNED]
+node7 broadcasting request [ACQUIRING]
+node8 now releasing the resource [RELEASING]
+node9 now owning the resource [OWNED]
+node8 broadcasting request [ACQUIRING]
+node9 now releasing the resource [RELEASING]
+node0 now owning the resource [OWNED]
+node9 broadcasting request [ACQUIRING]
+node0 now releasing the resource [RELEASING]
+node1 now owning the resource [OWNED]
+node0 broadcasting request [ACQUIRING]
+node1 now releasing the resource [RELEASING]
+node2 now owning the resource [OWNED]
+Entered has pressed, stopping system now
+node0 is stopping now
+node1 is stopping now
+node2 now releasing the resource [RELEASING]
+node2 is stopping now
+node3 is stopping now
+node4 is stopping now
+node5 is stopping now
+node6 is stopping now
+node7 is stopping now
+node8 is stopping now
+node9 is stopping now
+
+Process finished with exit code 0.
