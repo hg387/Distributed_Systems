@@ -1,0 +1,224 @@
+Starting Raft
+node1 hits OnReceive
+node1 is started
+node4 hits OnReceive
+node4 is started
+node2 hits OnReceive
+node2 is started
+node0 hits OnReceive
+node0 is started
+node5 hits OnReceive
+node5 is started
+node3 hits OnReceive
+node3 is started
+node2 became follower
+node1 became follower
+node0 became follower
+node5 became follower
+node4 became follower
+node3 became follower
+node0 follower timedOut
+node0 became candidate
+node2 accepted vote of node0
+node1 accepted vote of node0
+node3 accepted vote of node0
+node4 accepted vote of node0
+node5 accepted vote of node0
+node1 became follower
+node2 became follower
+node3 became follower
+node4 became follower
+node5 became follower
+node0 became leader
+leader node0 received client request -1
+node0 total logs are
+1 -1
+node0 committed new logs are
+1 -1
+node0 current state is 49
+leader node0 received client request -2
+leader node0 received client request 1
+leader node0 received client request -3
+leader node0 received client request -5
+leader node0 received client request 6
+leader node0 received client request 7
+node4 total logs are
+1 -1
+1 -2
+node4 committed new logs are
+1 -1
+node4 current state is 49
+node5 total logs are
+1 -1
+1 -2
+node5 committed new logs are
+1 -1
+node5 current state is 49
+node3 total logs are
+1 -1
+1 -2
+node3 committed new logs are
+1 -1
+node3 current state is 49
+node1 total logs are
+1 -1
+1 -2
+node1 committed new logs are
+1 -1
+node1 current state is 49
+node0 total logs are
+1 -1
+1 -2
+1 1
+1 -3
+1 -5
+1 6
+1 7
+node0 committed new logs are
+1 -2
+node0 current state is 47
+node2 total logs are
+1 -1
+1 -2
+node2 committed new logs are
+1 -1
+node2 current state is 49
+node0 total logs are
+1 -1
+1 -2
+1 1
+1 -3
+1 -5
+1 6
+1 7
+node0 committed new logs are
+1 1
+node0 current state is 48
+node0 total logs are
+1 -1
+1 -2
+1 1
+1 -3
+1 -5
+1 6
+1 7
+node0 committed new logs are
+1 -3
+node0 current state is 45
+node0 total logs are
+1 -1
+1 -2
+1 1
+1 -3
+1 -5
+1 6
+1 7
+node0 committed new logs are
+1 -5
+node0 current state is 40
+node0 total logs are
+1 -1
+1 -2
+1 1
+1 -3
+1 -5
+1 6
+1 7
+node0 committed new logs are
+1 6
+node0 current state is 46
+node0 total logs are
+1 -1
+1 -2
+1 1
+1 -3
+1 -5
+1 6
+1 7
+node0 committed new logs are
+1 7
+node0 current state is 53
+node1 total logs are
+1 -1
+1 -2
+1 1
+1 -3
+1 -5
+1 6
+1 7
+node1 committed new logs are
+node3 total logs are
+1 -2
+1 1
+1 -3
+1 -5
+1 6
+1 7
+1 -1
+node5 total logs are
+1 -1
+1 -2
+1 1
+1 -3
+1 -5
+1 6
+1 7
+node5 committed new logs are
+1 -2
+1 1
+1 -2
+1 1
+node2 total logs are
+1 -1
+1 -2
+1 1
+1 -3
+1 -3
+1 -5
+1 6
+1 7
+node5 current state is 53
+node1 current state is 53
+1 -3
+1 -5
+1 6
+1 7
+node3 committed new logs are
+1 -2
+1 1
+1 -3
+1 -5
+1 6
+1 7
+node3 current state is 53
+1 -5
+1 6
+1 7
+node2 committed new logs are
+1 -2
+1 1
+1 -3
+1 -5
+1 6
+1 7
+node2 current state is 53
+node4 total logs are
+1 -1
+1 -2
+1 1
+1 -3
+1 -5
+1 6
+1 7
+node4 committed new logs are
+1 -2
+1 1
+1 -3
+1 -5
+1 6
+1 7
+node4 current state is 53
+
+Process finished with exit code 1.
+
+In the end, each node has the current state of 53.
