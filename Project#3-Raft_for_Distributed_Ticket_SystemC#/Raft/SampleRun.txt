@@ -1,0 +1,567 @@
+Starting Raft
+node4 hits OnReceive
+node1 hits OnReceive
+node0 hits OnReceive
+node2 hits OnReceive
+node4 is started
+node3 hits OnReceive
+node3 is started
+node1 is started
+node0 is started
+node2 is started
+node4 became follower
+node3 became follower
+node1 became follower
+node0 became follower
+node2 became follower
+node1 follower timedOut
+node1 became candidate
+node0 accepted vote of node1
+node2 accepted vote of node1
+node3 accepted vote of node1
+node4 accepted vote of node1
+node3 became follower
+node0 became follower
+node2 became follower
+node4 became follower
+node1 became leader
+leader node1 received client request -1
+node1 total logs are
+1 -1
+node1 committed new logs are
+1 -1
+node1 current state is 49
+leader node1 received client request -2
+leader node1 received client request -1
+leader node1 received client request -3
+leader node1 received client request -5
+leader node1 received client request -6
+leader node1 received client request -2
+node2 total logs are
+1 -1
+1 -2
+node2 committed new logs are
+1 -1
+node2 current state is 49
+node4 total logs are
+1 -1
+1 -2
+node4 committed new logs are
+1 -1
+node4 current state is 49
+node0 total logs are
+1 -1
+node3 total logs are
+1 -1
+1 -2
+node3 committed new logs are
+1 -1
+node3 current state is 49
+node1 total logs are
+1 -1
+1 -2
+1 -1
+1 -3
+1 -5
+1 -6
+1 -2
+1 -2
+node0 committed new logs are
+node1 committed new logs are
+1 -2
+node1 current state is 47
+1 -1
+node0 current state is 49
+node1 total logs are
+1 -1
+1 -2
+1 -1
+1 -3
+1 -5
+1 -6
+1 -2
+node1 committed new logs are
+1 -1
+node1 current state is 46
+node1 total logs are
+1 -1
+1 -2
+1 -1
+1 -3
+1 -5
+1 -6
+1 -2
+node1 committed new logs are
+1 -3
+node1 current state is 43
+node1 total logs are
+1 -1
+1 -2
+1 -1
+1 -3
+1 -5
+1 -6
+1 -2
+node1 committed new logs are
+1 -5
+node1 current state is 38
+node1 total logs are
+1 -1
+1 -2
+1 -1
+1 -3
+1 -5
+1 -6
+1 -2
+node1 committed new logs are
+1 -6
+node1 current state is 32
+node1 total logs are
+1 -1
+1 -2
+1 -1
+1 -3
+1 -5
+1 -6
+1 -2
+node1 committed new logs are
+1 -2
+node1 current state is 30
+Client0 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+node0 total logs are
+1 -1
+1 -2
+1 -1
+1 -3
+1 -5
+1 -6
+node4 total logs are
+1 -1
+1 -2
+1 -1
+1 -2
+node0 committed new logs are
+1 -2
+1 -1
+1 -3
+1 -3
+1 -5
+1 -6
+1 -2
+node4 committed new logs are
+node3 total logs are
+1 -1
+1 -2
+1 -1
+1 -3
+1 -5
+1 -6
+1 -2
+node3 committed new logs are
+1 -2
+1 -1
+1 -3
+1 -5
+1 -6
+1 -2
+node3 current state is 30
+node2 total logs are
+1 -2
+1 -5
+1 -6
+1 -2
+1 -1
+1 -1
+1 -3
+1 -5
+1 -6
+1 -2
+node0 current state is 30
+1 -2
+node4 current state is 30
+1 -1
+1 -3
+1 -5
+1 -6
+1 -2
+node2 committed new logs are
+1 -2
+1 -1
+1 -3
+1 -5
+1 -6
+1 -2
+node2 current state is 30
+Client0 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client1 unstable read response with tickets = 30
+Client0 unstable read response with tickets = 30
+Client4 unstable read response with tickets = 30
+Client3 unstable read response with tickets = 30
+Client2 unstable read response with tickets = 30
+
+Process finished with exit code 1.
+
+Sample Response when clients asking about the tickets everyone 6 seconds.
