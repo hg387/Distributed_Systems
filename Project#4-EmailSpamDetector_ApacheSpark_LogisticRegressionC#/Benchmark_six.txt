@@ -1,0 +1,121 @@
+hgupt004@cloudshell:~ (vocal-nova-316714)$ gcloud dataproc jobs submit pyspark gs://cs647_hw4/main.py --cluster=clustersix --region=us-east4
+Job [6d8b6c19b02a4f41b6ef7a57909fbc2f] submitted.
+Waiting for job output...
+21/06/17 20:10:44 INFO org.sparkproject.jetty.util.log: Logging initialized @5183ms to org.sparkproject.jetty.util.log.Slf4jLog
+21/06/17 20:10:44 INFO org.sparkproject.jetty.server.Server: jetty-9.4.36.v20210114; built: 2021-01-14T16:44:28.689Z; git: 238ec6997c7806b055319a6d11f8ae7564adc0de; jvm 1.8.0_292-b10
+21/06/17 20:10:44 INFO org.sparkproject.jetty.server.Server: Started @5335ms
+21/06/17 20:10:44 INFO org.sparkproject.jetty.server.AbstractConnector: Started ServerConnector@7caece6f{HTTP/1.1, (http/1.1)}{0.0.0.0:43669}
+21/06/17 20:10:45 INFO org.apache.hadoop.yarn.client.RMProxy: Connecting to ResourceManager at clustersix-m/10.150.0.10:8032
+21/06/17 20:10:46 INFO org.apache.hadoop.yarn.client.AHSProxy: Connecting to Application History server at clustersix-m/10.150.0.10:10200
+21/06/17 20:10:47 INFO org.apache.hadoop.conf.Configuration: resource-types.xml not found
+21/06/17 20:10:47 INFO org.apache.hadoop.yarn.util.resource.ResourceUtils: Unable to find 'resource-types.xml'.
+21/06/17 20:10:49 INFO org.apache.hadoop.yarn.client.api.impl.YarnClientImpl: Submitted application application_1623960481375_0001
+21/06/17 20:10:50 INFO org.apache.hadoop.yarn.client.RMProxy: Connecting to ResourceManager at clustersix-m/10.150.0.10:8030
+Starting training data time
+21/06/17 20:10:57 WARN org.apache.hadoop.util.concurrent.ExecutorHelper: Thread (Thread[GetFileInfo #10,5,main]) interrupted:
+java.lang.InterruptedException
+        at com.google.common.util.concurrent.AbstractFuture.get(AbstractFuture.java:510)
+        at com.google.common.util.concurrent.FluentFuture$TrustedFuture.get(FluentFuture.java:88)
+        at org.apache.hadoop.util.concurrent.ExecutorHelper.logThrowableFromAfterExecute(ExecutorHelper.java:48)
+        at org.apache.hadoop.util.concurrent.HadoopThreadPoolExecutor.afterExecute(HadoopThreadPoolExecutor.java:90)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1157)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+        at java.lang.Thread.run(Thread.java:748)
+21/06/17 20:10:57 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat: Total input files to process : 1500
+21/06/17 20:10:58 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat: Total input files to process : 1500
+21/06/17 20:12:03 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat: Total input files to process : 3672
+21/06/17 20:12:03 WARN org.apache.hadoop.util.concurrent.ExecutorHelper: Thread (Thread[GetFileInfo #19,5,main]) interrupted:
+java.lang.InterruptedException
+        at com.google.common.util.concurrent.AbstractFuture.get(AbstractFuture.java:510)
+        at com.google.common.util.concurrent.FluentFuture$TrustedFuture.get(FluentFuture.java:88)
+        at org.apache.hadoop.util.concurrent.ExecutorHelper.logThrowableFromAfterExecute(ExecutorHelper.java:48)
+        at org.apache.hadoop.util.concurrent.HadoopThreadPoolExecutor.afterExecute(HadoopThreadPoolExecutor.java:90)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1157)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+        at java.lang.Thread.run(Thread.java:748)
+21/06/17 20:12:04 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat: Total input files to process : 3672
+21/06/17 20:12:04 WARN org.apache.hadoop.util.concurrent.ExecutorHelper: Thread (Thread[GetFileInfo #3,5,main]) interrupted:
+java.lang.InterruptedException
+        at com.google.common.util.concurrent.AbstractFuture.get(AbstractFuture.java:510)
+        at com.google.common.util.concurrent.FluentFuture$TrustedFuture.get(FluentFuture.java:88)
+        at org.apache.hadoop.util.concurrent.ExecutorHelper.logThrowableFromAfterExecute(ExecutorHelper.java:48)
+        at org.apache.hadoop.util.concurrent.HadoopThreadPoolExecutor.afterExecute(HadoopThreadPoolExecutor.java:90)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1157)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+        at java.lang.Thread.run(Thread.java:748)
+21/06/17 20:13:36 WARN org.apache.spark.scheduler.TaskSetManager: Stage 4 contains a task of very large size (1981 KiB). The maximum recommended task size is 1000 KiB.
+21/06/17 20:13:37 WARN org.apache.spark.scheduler.TaskSetManager: Stage 5 contains a task of very large size (1981 KiB). The maximum recommended task size is 1000 KiB.
+21/06/17 20:13:52 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat: Total input files to process : 1500
+21/06/17 20:13:53 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat: Total input files to process : 1500
+21/06/17 20:13:53 WARN org.apache.hadoop.util.concurrent.ExecutorHelper: Thread (Thread[GetFileInfo #19,5,main]) interrupted:
+java.lang.InterruptedException
+        at com.google.common.util.concurrent.AbstractFuture.get(AbstractFuture.java:510)
+        at com.google.common.util.concurrent.FluentFuture$TrustedFuture.get(FluentFuture.java:88)
+        at org.apache.hadoop.util.concurrent.ExecutorHelper.logThrowableFromAfterExecute(ExecutorHelper.java:48)
+        at org.apache.hadoop.util.concurrent.HadoopThreadPoolExecutor.afterExecute(HadoopThreadPoolExecutor.java:90)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1157)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+        at java.lang.Thread.run(Thread.java:748)
+21/06/17 20:14:35 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat: Total input files to process : 3672
+21/06/17 20:14:35 WARN org.apache.hadoop.util.concurrent.ExecutorHelper: Thread (Thread[GetFileInfo #0,5,main]) interrupted:
+java.lang.InterruptedException
+        at com.google.common.util.concurrent.AbstractFuture.get(AbstractFuture.java:510)
+        at com.google.common.util.concurrent.FluentFuture$TrustedFuture.get(FluentFuture.java:88)
+        at org.apache.hadoop.util.concurrent.ExecutorHelper.logThrowableFromAfterExecute(ExecutorHelper.java:48)
+        at org.apache.hadoop.util.concurrent.HadoopThreadPoolExecutor.afterExecute(HadoopThreadPoolExecutor.java:90)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1157)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+        at java.lang.Thread.run(Thread.java:748)
+21/06/17 20:14:36 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat: Total input files to process : 3672
+21/06/17 20:14:36 WARN org.apache.hadoop.util.concurrent.ExecutorHelper: Thread (Thread[GetFileInfo #5,5,main]) interrupted:
+java.lang.InterruptedException
+        at com.google.common.util.concurrent.AbstractFuture.get(AbstractFuture.java:510)
+        at com.google.common.util.concurrent.FluentFuture$TrustedFuture.get(FluentFuture.java:88)
+        at org.apache.hadoop.util.concurrent.ExecutorHelper.logThrowableFromAfterExecute(ExecutorHelper.java:48)
+        at org.apache.hadoop.util.concurrent.HadoopThreadPoolExecutor.afterExecute(HadoopThreadPoolExecutor.java:90)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1157)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+        at java.lang.Thread.run(Thread.java:748)
+21/06/17 20:16:05 WARN org.apache.spark.scheduler.TaskSetManager: Stage 10 contains a task of very large size (1981 KiB). The maximum recommended task size is 1000 KiB.
+21/06/17 20:16:06 WARN org.apache.spark.scheduler.TaskSetManager: Stage 11 contains a task of very large size (1981 KiB). The maximum recommended task size is 1000 KiB.
+Finished training data in 361.1318163871765 seconds
+Starting classifying data time
+21/06/17 20:16:57 WARN org.apache.spark.scheduler.TaskSetManager: Stage 12 contains a task of very large size (3302 KiB). The maximum recommended task size is 1000 KiB.
+21/06/17 20:16:58 WARN org.apache.spark.scheduler.TaskSetManager: Stage 13 contains a task of very large size (3302 KiB). The maximum recommended task size is 1000 KiB.
+spam files classified correctly: 1179
+spam files classified_incorrectly: 321
+21/06/17 20:16:59 WARN org.apache.spark.scheduler.TaskSetManager: Stage 14 contains a task of very large size (9011 KiB). The maximum recommended task size is 1000 KiB.
+21/06/17 20:17:00 WARN org.apache.spark.scheduler.TaskSetManager: Stage 15 contains a task of very large size (9011 KiB). The maximum recommended task size is 1000 KiB.
+non-spam files classified correctly: 3110
+non-spam files classified incorrectly: 562
+Finished training data time 4.786997318267822 seconds
+21/06/17 20:17:01 INFO org.sparkproject.jetty.server.AbstractConnector: Stopped Spark@7caece6f{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
+Job [6d8b6c19b02a4f41b6ef7a57909fbc2f] finished successfully.
+done: true
+driverControlFilesUri: gs://dataproc-staging-us-east4-516411995044-aj9nd6sq/google-cloud-dataproc-metainfo/141b6ab9-b0a5-4a4f-b69e-841d83880f5e/jobs/6d8b6c19b02a4f41b6ef7a57909fbc2f/
+driverOutputResourceUri: gs://dataproc-staging-us-east4-516411995044-aj9nd6sq/google-cloud-dataproc-metainfo/141b6ab9-b0a5-4a4f-b69e-841d83880f5e/jobs/6d8b6c19b02a4f41b6ef7a57909fbc2f/driveroutput
+jobUuid: c76b0b4b-0132-31e6-990e-5fdf690e0683
+placement:
+  clusterName: clustersix
+  clusterUuid: 141b6ab9-b0a5-4a4f-b69e-841d83880f5e
+pysparkJob:
+  mainPythonFileUri: gs://cs647_hw4/main.py
+reference:
+  jobId: 6d8b6c19b02a4f41b6ef7a57909fbc2f
+  projectId: vocal-nova-316714
+status:
+  state: DONE
+  stateStartTime: '2021-06-17T20:17:03.850042Z'
+statusHistory:
+- state: PENDING
+  stateStartTime: '2021-06-17T20:10:37.122522Z'
+- state: SETUP_DONE
+  stateStartTime: '2021-06-17T20:10:37.183459Z'
+- details: Agent reported job success
+  state: RUNNING
+  stateStartTime: '2021-06-17T20:10:37.486507Z'
+yarnApplications:
+- name: CS647_HW4
+  progress: 1.0
+  state: FINISHED
+  trackingUrl: http://clustersix-m:8088/proxy/application_1623960481375_0001/
