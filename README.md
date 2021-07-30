@@ -16,7 +16,9 @@ Mono. For more info about Akka.Net: https://getakka.net/
 
 Other topics covered are:
 
-Apache HDFS and YARN Apache HBase and its working Bayou, weakly
-connected replicated storage system Kubernetes in distributed systems
-Fault-tolerant distributed databases Blockchains from a Distributed
-Computing Perspective
+Apache HDFS and YARN 
+Apache HBase and its working 
+Bayou, weakly connected replicated storage system 
+Kubernetes in distributed systems
+Fault-tolerant distributed databases 
+Blockchains from a Distributed Computing Perspective
